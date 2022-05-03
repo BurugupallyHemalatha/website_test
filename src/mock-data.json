@@ -1,0 +1,52 @@
+[
+    {
+        "id": 31,
+        "Name": "sam",
+        "Designation": "Ui Developer",
+        "CTC": "12",
+        "JoiningDate": "21/04/2022",
+        "Email": "sa@gmail.com",
+        "Resume": "inv135137043.pdf",
+        "Status": "send Conformation Email"
+    },
+    {
+        "id": 31,
+        "Name": "sam",
+        "Designation": "Ui Developer",
+        "CTC": "12",
+        "JoiningDate": "21/04/2022",
+        "Email": "sa@gmail.com",
+        "Resume": "inv135137043.pdf",
+        "Status": "send Conformation Email"
+    },
+    {
+        "id": 20,
+        "Name": "TestUser1",
+        "Designation": "Tester",
+        "CTC": "25000",
+        "JoiningDate": "21/04/2022",
+        "Email": "sa@gmail.com",
+        "Resume": "inv135137043.pdf",
+        "Status": "send Conformation Email"
+    },
+    {
+        "id": 20,
+        "Name": "TestUser1",
+        "Designation": "Tester",
+        "CTC": "25000",
+        "JoiningDate": "21/04/2022",
+        "Email": "sa@gmail.com",
+        "Resume": "inv135137043.pdf",
+        "Status": "send Conformation Email"
+    },
+    {
+        "id": 20,
+        "Name": "TestUser1",
+        "Designation": "Tester",
+        "CTC": "25000",
+        "JoiningDate": "21/04/2022",
+        "Email": "sa@gmail.com",
+        "Resume": "inv135137043.pdf",
+        "Status": "send Conformation Email"
+    }
+]

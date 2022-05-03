@@ -49,20 +49,23 @@ const Login = () => {
                 <h1 class="navbar-brand text-white" href="#">Resource One IT Solutions</h1>
             </nav>
             <hr />
-            <center class="card cardalign w-100">
+            <center class=" ">
+                <div className='card' style={{width:"25%"}}>
                 <h3>Login</h3>
                 <form method="get" action="RecruiterScreen.js" onSubmit={handleSubmit}>
-                    <input id="myInput" type="text" placeholder='Email' value={email} name="email" onChange={handleChange} /><br />
-                    <span style={{color:"red"}}>{error}</span>
+                   <span style={{color:"red"}} className="btn bg-red">{error}</span><br/>
 
+                    <input id="myInput" type="text" placeholder='Email' value={email} name="email" onChange={handleChange} /><br/> 
                     <br />
                     <input id="myInput" type="password" placeholder='Password' value={password} name="password" onChange={handleChange}/><br />
                     <br />
+
                     <span style={{color:"red"}}>{passwordError}</span><br/>
                     {/* <Link to="/recruiterscreen"><button type="Email" class="btn btn-primary">Login</button></Link><br/> */}
                     <button class="btn btn-primary" onClick={handleClick}>Login</button><br />
-                    <span class="psw"><a href="#"> Forgot password?</a></span>
+                   <Link to="/forgotPassword"><span class="psw"><a href="#"> Forgot password?</a></span></Link>
                 </form>
+                </div>
             </center>
         </div>
     )

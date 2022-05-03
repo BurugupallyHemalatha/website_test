@@ -1,13 +1,16 @@
 import React from 'react';
 import data from '../mock-data.json';
-const Table = () => { 
+const Exeperience = () => { 
   const[state,setState]=React.useState(data)//use all span 3 for columes
   return (
     <div>
       <div>
         <nav class="navbar navbar-inverse">
           <h4 style={{ display: "flex" }} class="text-light">Resource One IT Solutions</h4>
-         
+          <select id="expirence" name="experiance">
+            <option value="experienced">Experianced</option>
+            <option value="Fresher">Fresher</option>
+          </select>
           <a class="active text-light" href="#home">Onboaring Process</a>
           <i class="fa fa-bell " aria-hidden="true" style={{color:"white"}}></i>
 
@@ -50,4 +53,4 @@ const Table = () => {
     </div>
   )
 }
-export default Table;
+export default Exeperience;
