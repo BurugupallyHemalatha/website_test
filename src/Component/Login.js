@@ -28,6 +28,7 @@ const Login = () => {
         }
         if(new RegExp(/^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%&]).*$/).test(password)){
             setPasswordError("")
+            console.log("31")
         }
         else{
             setPasswordError("Enter the secured password")
@@ -35,13 +36,7 @@ const Login = () => {
         if(!error && !passwordError && email.length>0 && password.length>0){
             navigate("/recruiterScreen")
         }
-        // if(email.length>0){
-        //     alert("Email is invalid");
-        // }else if(password.length<0){
-        //     alert("Enter some password")
-        // }else{
-        //     navigate("/RecruiterScreen")
-        // }
+       
     }
     return (
         <div >

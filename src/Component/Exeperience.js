@@ -29,7 +29,7 @@ const Exeperience = () => {
             <th class="p-5">Joining Date</th>
             <th class="p-5">Email id</th>
             <th class="p-5">Resume</th>
-            <th class="p-5" >Status</th>
+            <th class="p-5">Status</th>
           </tr>
         </thead>
         <tbody>
